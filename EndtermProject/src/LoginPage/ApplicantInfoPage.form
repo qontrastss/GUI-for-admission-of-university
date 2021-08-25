@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="LoginPage.ApplicantInfoPage">
+  <grid id="27dc6" binding="mainPanelOfInfoPage" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="24" y="15" width="601" height="795"/>
+    </constraints>
+    <properties>
+      <background color="-14408668"/>
+      <enabled value="false"/>
+      <foreground color="-15000805"/>
+      <maximumSize width="500" height="700"/>
+      <minimumSize width="500" height="700"/>
+      <preferredSize width="500" height="700"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <border type="empty">
+      <font name="Gill Sans MT" size="22" style="1"/>
+      <title-color color="-1"/>
+      <size top="20" left="20" bottom="20" right="20"/>
+    </border>
+    <children>
+      <grid id="97cdb" binding="insidePanelOfInfoPage" layout-manager="GridLayoutManager" row-count="13" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13224394"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="empty">
+          <size top="10" left="10" bottom="10" right="10"/>
+        </border>
+        <children>
+          <component id="e7be6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Gill Sans MT" size="36" style="1"/>
+              <foreground color="-1"/>
+              <text value="Applicant Information"/>
+            </properties>
+          </component>
+          <component id="8cf20" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18" style="1"/>
+              <foreground color="-1"/>
+              <labelFor value="d90c0"/>
+              <text value="Name:"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="56a7d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18" style="1"/>
+              <foreground color="-1"/>
+              <labelFor value="c8bac"/>
+              <text value="Surname:"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="83bb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18" style="1"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value="Gender:"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="95600" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18" style="1"/>
+              <foreground color="-1"/>
+              <labelFor value="cc232"/>
+              <text value="Faculty:"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="6707c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18" style="1"/>
+              <foreground color="-1"/>
+              <labelFor value="7bd5c"/>
+              <text value="School GPA:"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="68aae" class="javax.swing.JLabel" binding="Label10">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18" style="1"/>
+              <foreground color="-1"/>
+              <labelFor value="251c0"/>
+              <text value="Family members:"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="3b877" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18" style="1"/>
+              <foreground color="-1"/>
+              <labelFor value="f490e"/>
+              <text value="Score of exams:"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="18e8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18" style="1"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value="Financial situation:"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="75639" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18" style="1"/>
+              <foreground color="-1"/>
+              <labelFor value="7bd5c"/>
+              <text value="Scholarship:"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="aaa4d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18" style="1"/>
+              <foreground color="-1"/>
+              <labelFor value="7bd5c"/>
+              <text value="Tuition fee:"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="9f048" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18" style="1"/>
+              <foreground color="-1"/>
+              <labelFor value="7bd5c"/>
+              <text value="Exam status:"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="573a5" class="javax.swing.JLabel" binding="GenderBox">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="59d68" class="javax.swing.JLabel" binding="NameBox">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="8176" class="javax.swing.JLabel" binding="SurnameBox">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="16ce4" class="javax.swing.JLabel" binding="FacultyBox">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="f197d" class="javax.swing.JLabel" binding="GPABox">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="48cc4" class="javax.swing.JLabel" binding="FamilyBox">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="54ee6" class="javax.swing.JLabel" binding="PhycixsBox">
+            <constraints>
+              <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="e716d" class="javax.swing.JLabel" binding="FinSituationBox">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="ab821" class="javax.swing.JLabel" binding="ScholarshipBox">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="c36ac" class="javax.swing.JLabel" binding="FeeBox">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="86643" class="javax.swing.JLabel" binding="ExamBox">
+            <constraints>
+              <grid row="11" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="84e7b" class="javax.swing.JLabel" binding="MathBox">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="8230f" class="javax.swing.JLabel" binding="EnglishBox">
+            <constraints>
+              <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value=""/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="33cb0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value="cc232"/>
+              <text value="Math"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="dddfe" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value="cc232"/>
+              <text value="Physic"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="ae9b2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Gill Sans MT" size="18"/>
+              <foreground color="-1"/>
+              <labelFor value="cc232"/>
+              <text value="English"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="5cdef" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Gill Sans MT" size="18" style="1"/>
+              <foreground color="-15000805"/>
+              <text value="Cancel"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
